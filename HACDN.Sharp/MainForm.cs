@@ -93,7 +93,7 @@ namespace HACDN.Sharp
                     ServicePointManager.ServerCertificateValidationCallback = AcceptAllCertifications;
                     X509Certificate2 clientCert = new X509Certificate2("nx_tls_client_cert.pfx", "switch");
 
-                    string titleId = this.cboTitle.Text;
+                    string titleId = this.tbTitleId.Text;
                     string version = this.tbVersion.Text;
                     string deviceId = this.tbDeviceId.Text;
 
