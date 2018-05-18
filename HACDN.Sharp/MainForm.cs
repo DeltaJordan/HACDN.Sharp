@@ -22,6 +22,9 @@ namespace HACDN.Sharp
         {
             this.InitializeComponent();
 
+            this.DragEnter += this.MainForm_DragEnter;
+            this.DragDrop += this.MainForm_DragDrop;
+
             this.stripDownloadInfo.VisibleChanged += this.StripDownloadInfo_VisibleChanged;
 
             this.btnDownload.Click += this.BtnDownload_Click;
@@ -30,6 +33,25 @@ namespace HACDN.Sharp
 
             this.stripDownloadInfo.Visible = false;
         }
+
+        private void MainForm_DragDrop(object sender, DragEventArgs e)
+        {
+            string[] data = (string[])e.Data.GetData(DataFormats.FileDrop);
+            int index = 0;
+            while (index < data.Length)
+            {
+                this.tbDeviceId.Text = File.OpenText(data[index]).ReadToEnd().Substring(1347, 16);
+                checked { ++index; }
+            }
+        }
+
+        private void MainForm_DragEnter(object sender, DragEventArgs e)
+        {
+            if (!e.Data.GetDataPresent(DataFormats.FileDrop))
+                return;
+            e.Effect = DragDropEffects.Copy;
+        }
+
 
         private void Client_ProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
