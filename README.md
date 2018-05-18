@@ -1,5 +1,6 @@
 # HACDN.Sharp
 
+### I recommend using https://gbatemp.net/threads/cdnx-cdn-downloader.504155/ instead of HACDN or its port(s), CDNX is much more optimized, has less of a chance of banning you and is also in C#. If you want to read this for fun, I'm not stopping you and if you want to use my app anyways, you're crazy but go ahead.
 
 ## What's different???
 Understandably, when a derivative version of an application is created, it is questioned what exactly is the benefit of this over the original? Well let me outline it in a list for your convenience:
