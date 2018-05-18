@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HACDN", "HACDN\HACDN.vbproj", "{454656F7-2996-455B-9785-3068CF3391BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HACDN.Sharp", "HACDN.Sharp\HACDN.Sharp.csproj", "{41BF3D6E-AA74-4619-82A3-D6995C125AE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{454656F7-2996-455B-9785-3068CF3391BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{454656F7-2996-455B-9785-3068CF3391BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{454656F7-2996-455B-9785-3068CF3391BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{454656F7-2996-455B-9785-3068CF3391BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BF3D6E-AA74-4619-82A3-D6995C125AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BF3D6E-AA74-4619-82A3-D6995C125AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BF3D6E-AA74-4619-82A3-D6995C125AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BF3D6E-AA74-4619-82A3-D6995C125AE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
