@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HACDN.Sharp", "HACDN.Sharp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HACDN", "HACDN\HACDN.csproj", "{08A2F7A7-E12C-4502-9FDC-8BE95B7FD787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HACDN.core", "HACDN.core\HACDN.core.csproj", "{A942E7B5-7D27-4382-93D3-FAAEE5CA9D24}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{08A2F7A7-E12C-4502-9FDC-8BE95B7FD787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A2F7A7-E12C-4502-9FDC-8BE95B7FD787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A2F7A7-E12C-4502-9FDC-8BE95B7FD787}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A942E7B5-7D27-4382-93D3-FAAEE5CA9D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A942E7B5-7D27-4382-93D3-FAAEE5CA9D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A942E7B5-7D27-4382-93D3-FAAEE5CA9D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A942E7B5-7D27-4382-93D3-FAAEE5CA9D24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
