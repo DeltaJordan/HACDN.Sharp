@@ -13,11 +13,13 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using HACDN.Sharp.Network;
+using HACDN.Wrappers;
 
 namespace HACDN.Sharp
 {
     public partial class MainForm : Form
     {
+        private SwitchbrewWrapper switchbrewWrapper = new SwitchbrewWrapper();
         public MainForm()
         {
             this.InitializeComponent();
@@ -187,6 +189,29 @@ namespace HACDN.Sharp
             }
 
             return hexIn.ToString();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            foreach (var title in switchbrewWrapper.GetTitlesAsync().Result)
+            {
+                ComboboxItem item = new ComboboxItem
+                {
+                    Text = title.Description,
+                    Value = title.TitleID
+                };
+                cboTitle.Items.Add(item);
+            }
+            
+        }
+
+        private void cboTitle_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                tbTitleId.Text = ((ComboboxItem)cboTitle.SelectedItem).Value.ToString();
+            }
+            catch (Exception){}
         }
     }
 }
