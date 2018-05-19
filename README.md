@@ -1,4 +1,4 @@
-# HACDN.Sharp
+# HACDN.Sharp [![Build status](https://ci.appveyor.com/api/projects/status/kxxwh8i6x0sc73rf/branch/master?svg=true)](https://ci.appveyor.com/project/JordanZeotni/hacdn-sharp/branch/master)
 
 ### I recommend using https://gbatemp.net/threads/cdnx-cdn-downloader.504155/ instead of HACDN or its port(s), CDNX is much more optimized, has less of a chance of banning you and is also in C#. If you want to read this for fun, I'm not stopping you and if you want to use my app anyways, you're crazy but go ahead.
 
